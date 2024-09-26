@@ -37,19 +37,6 @@ main_menu_dialog = Dialog(
             ),
             width=2
         ),
-        Group(
-            Start(
-                Const('Расписания'),
-                id='daily_tasks',
-                state=
-            ),
-            Start(
-                Const('🗓️ Сегодняшний график'),
-                id='daily_tasks',
-                state=
-            ),
-            width=2
-        ),
         state=states.MainMenu.MAIN,
         parse_mode=ParseMode.HTML
     )
